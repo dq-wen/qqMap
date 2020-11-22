@@ -1,0 +1,38 @@
+@import "./com-business.less";
+
+/*==========样式重置===========*/
+body,h1,h2,h3,h4,p,a,input,img,ul,li,ol,dl,dt,dd{
+  padding:0;
+  margin:0;
+}
+body{
+  background: #112852;
+}
+html,body,#app{
+  height:100%;
+}
+ul,ol{
+  list-style:none;
+}
+img{
+  display:block;
+  border:0;
+}
+input,button{
+  outline:none;
+  border:0;
+  /*ios会有内阴影*/
+  -webkit-appearance: none;  
+}
+header,footer,section,main,nav{
+  display:block;
+}
+
+a{
+  text-decoration:none;
+  color:#999;
+}
+a:hover{text-decoration:underline;}
+i,em{font-style:normal;}
+
+*{box-sizing:border-box;}
